@@ -1,0 +1,32 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  max-width: 987px;
+}
+
+.herobanner-homepage {
+  background-image: url(/images/herobanner-homepage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+}
+
+.herobanner-homepage h1 {
+  color: #fff;
+  font-size: 3rem;
+  line-height: 770px;
+  margin: 0;
+}
+
+@media (min-width: 600px) {
+  .herobanner-homepage h1 {
+    font-size: 6rem;
+    line-height: 770px;
+    margin: 0;
+  }
+}
