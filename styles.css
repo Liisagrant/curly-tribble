@@ -26,7 +26,6 @@
 .navbar-links li a:hover {
   border: solid #fff;
   color: #fff;
-  padding: 10px;
 }
 
 .navbar-links ul {
@@ -45,6 +44,7 @@
   text-decoration: none;
   color: #fff;
   padding: 20px;
+  margin-bottom: 35px;
 }
 
 .hamburger-btn {
